@@ -10,14 +10,9 @@ namespace CustomerNew
         public int id { get; set; }
         public string firstName { get; set; }
         public string lastName { get; set; }
-        public string mainCategory { get; set; }
-        /*
-        public string CustomerName { get; set; }
-        public string CustomerType { get; set; }
-        public string EmailAddress { get; set; }
+        public string customerType { get; set; }
+        public string emailAddress { get; set; }
+       public DateTime dateOfBirth { get; set; }
         
-       public string dateOfBirth { get; set; }
-        
-        */
     }
 }
